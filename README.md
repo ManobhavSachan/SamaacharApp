@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# SamaaChar News Website
+This is a React-based web application that uses the News API to display daily news. The app supports multiple categories of news, such as Business, Entertainment, Health, Science, Sports, Technology, and more.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+- Displays news articles from various categories.
+- Allows users to filter news by category.
+- Provides a search functionality to find news articles based on keywords.
+- Shows the source and date of each article.
+- API of NewsAPI is used.
+- Dark theme is supported.
 
-## Available Scripts
+## How to Run
+To run the app locally, follow these steps:
+- Clone the repository:
+- Copy code git clone https://github.com/yourusername/daily-news.git
+- Install the dependencies
+- cd daily-news
+- npm install
+- Obtain an API key from News API.
+- Create a .env file in the root directory of the project and add the following line with your API key: REACT_APP_NEWS_API_KEY=your-api-key-here
+- Start the app: npm start
+- Open http://localhost:3000 in your browser to view the app.
 
-In the project directory, you can run:
+## Sample Photos
 
-### `npm start`
+![Screenshot (111)](https://user-images.githubusercontent.com/94208034/221349776-70a1e5e5-f3bb-4939-90b4-3c2bd20f406c.png)
+![Screenshot (112)](https://user-images.githubusercontent.com/94208034/221349774-4168c53e-84fa-4afa-aa38-aefe99c43765.png)
+![Screenshot (114)](https://user-images.githubusercontent.com/94208034/221349771-82772f74-5ca8-4312-84a2-e88ca8e2921c.png)
+![Screenshot (115)](https://user-images.githubusercontent.com/94208034/221349784-e2223cb4-4ef2-413d-9e96-258647c96e19.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
