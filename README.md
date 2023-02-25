@@ -12,7 +12,7 @@ This is a React-based web application that uses the News API to display daily ne
 ## How to Run
 To run the app locally, follow these steps:
 - Clone the repository:
-- Copy code git clone https://github.com/yourusername/daily-news.git
+- Copy code git clone https://github.com/ManobhavSachan/SamaacharApp/edit/main/README.md.
 - Install the dependencies
 - cd daily-news
 - npm install
